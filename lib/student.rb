@@ -8,8 +8,9 @@ class Student
   def initialize(student_hash)
     #takes in an argument of a hash and sets that new student's attributes using the key/value pairs of that hash. (FAILED -
     # how do I set key value pair of a hash
-    @student_hash = student_hash
-    
+    student_hash.each do |key, value|
+      binding.pry
+    end
     # binding.pry
   end
 
