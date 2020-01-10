@@ -9,7 +9,7 @@ class Student
     #takes in an argument of a hash and sets that new student's attributes using the key/value pairs of that hash. (FAILED -
     # how do I set key value pair of a hash
     student_hash.each do |key, value|
-      self.name = value[0]
+      self.name = student_hash.values[0]
       # binding.pry
     end
     # binding.pry
