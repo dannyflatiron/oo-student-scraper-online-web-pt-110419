@@ -8,11 +8,11 @@ class Student
   def initialize(student_hash)
     #takes in an argument of a hash and sets that new student's attributes using the key/value pairs of that hash. (FAILED -
     # how do I set key value pair of a hash
-    student_hash.each do |key, value|
-      self.send("#{key}=", value)
-      # binding.pry
-    end
-    @@all << self
+    # student_hash.each do |key, value|
+    #   self.send("#{key}=", value)
+    #   # binding.pry
+    # end
+    # @@all << self
   end
 
   def self.create_from_collection(students_array)
