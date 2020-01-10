@@ -6,8 +6,9 @@ class Student
   @@all = []
 
   def initialize(student_hash)
+    #takes in an argument of a hash and sets that new student's attributes using the key/value pairs of that hash. (FAILED -
     @student_hash = student_hash
-    binding.pry
+    # binding.pry
   end
 
   def self.create_from_collection(students_array)
