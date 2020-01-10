@@ -10,7 +10,7 @@ class Student
     # how do I set key value pair of a hash
     student_hash.each do |key, value|
       self.name = student_hash[key]
-      # binding.pry
+      binding.pry
 
     end
   end
