@@ -20,11 +20,11 @@ class Student
       Student.new(student)
     end
 
-    
+
   end
 
   def add_student_attributes(attributes_hash)
-
+    binding.pry
   end
 
   def self.all
